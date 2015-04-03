@@ -2,7 +2,7 @@
 # A simple backup script for satellite, known to work on v5.1 - v5.5 servers that use the inbuilt oracle database.
 # Set the cronjob to run weekly (as the internal oracle backups take satellite offline)
 # 0 21 * * 0 /root/scripts/satellite-backup-script-oracle.sh >/dev/null 2>&1
-set -x
+#set -x
 BACKUPPATH=/var/satellite/backupdb
 BACKUPNAME=db-backup-$(date "+%F")
 
