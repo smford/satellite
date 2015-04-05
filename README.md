@@ -7,6 +7,7 @@ Satellite and Spacewalk Related Scripts
 5. ***satellite-make-chan-list.sh*** - Generates a list of all available channels
 6. ***satellite-merge-chan.pl*** - Copies a channels packages and errata to another channel, useful for maintaining Development, Test, Pre-production and Production channels
 7. ***satelite-quick-list-orgs.pl*** - If you have many organisations, and need to quickly list them.
+8. ***rhel-gpg-keys*** - List in human readible format, the current GPG keys you have installed
 
 All scripts can be run from the command line
 ```
