@@ -12,6 +12,9 @@ use Frontier::Client;
 use IO::Prompt;
 use Data::Dumper;
 
+use strict;
+use warnings;
+
 # Change the host below to point to your satellite v5.6 (fully patched) server
 my $HOST = 'satellite.server.com';
 

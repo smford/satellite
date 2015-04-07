@@ -13,6 +13,9 @@ use Frontier::Client;
 use IO::Prompt;
 use Data::Dumper;
 
+use strict;
+use warnings;
+
 # Enter your satellite server host below
 my $HOST = 'satellite.server.com';
 

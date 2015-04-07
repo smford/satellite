@@ -1,17 +1,19 @@
 #!/usr/bin/perl
-# list-orgs
+# satellite-quick-list-orgs
 #
-# v1.0 11Apr14  ccaastf
 
 use Frontier::Client;
 use IO::Prompt;
 use Data::Dumper;
 
+use strict;
+use warnings;
+
 my $HOST = 'satellite.server.com';
 
 print "This utility lists organisations and all users within that organisation.\n";
 print "------------------------------------------------------------------------\n";
-print "You *MUST* login with a satellite administrator account, eg: ucl-is\n";
+print "You *MUST* login with a satellite administrator account\n";
 
 
 my $user1 = prompt('Satellite User: ', -tty);

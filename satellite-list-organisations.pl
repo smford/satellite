@@ -11,6 +11,9 @@ my $HOST = 'satellite.server.com';
 use Frontier::Client;
 use IO::Prompt;
 
+use strict;
+use warnings;
+
 print "This utility lists organisations and all users within that organisation.\n";
 print "------------------------------------------------------------------------\n";
 print "You *MUST* login with the satellite administrator account\n";
